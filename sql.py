@@ -2,7 +2,7 @@ import pyodbc
 from datetime import datetime
 
 class Sql:
-    def __init__(self, database, server="10.1.16.177"):
+    def __init__(self, database, server="xxxxxxx"):
         self.cnxn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
                                    "Server="+server+";"
                                    "Database="+database+";"
